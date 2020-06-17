@@ -1,0 +1,229 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+    background-color:#DBDFE2;
+    
+}
+
+
+
+.bg-hero { 
+    background-image: url(/img/razboi.jpg);
+    height: 700px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.tiparit{
+    margin-top:300px;
+    margin-left: 150px;
+    font-size: 35px;
+    color: white;
+}
+
+.navbar-nav{
+    margin-left: 320px;
+    font-size: 20px;
+
+}
+
+
+.navbar-brand{
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-nav{
+        background:#DBDFE2;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-nav{
+        margin-left: 0;
+    }
+}
+
+.about-text{
+ margin-top: 100px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .about-text{
+        margin-top:25px;
+    }
+    .about-text{
+        margin-bottom: 60px;
+    }
+}
+
+.about-me {
+    background-color:#DBDFE2;
+}
+
+.serios{
+    height: auto;
+    width: 100%;
+
+}
+
+.textp{
+    text-align: center;
+
+}
+@media only screen and (max-width: 600px) {
+    .serios{
+        margin-top:30px;
+    }
+}
+
+.frica-titlu h2{
+    text-decoration: underline;
+}
+
+.alb-negru{
+    width: 450px;
+    height: 251px;
+}
+
+
+
+.ali-frica-titlu {
+    margin-top: 140px;
+}
+
+.ali-frica{
+    margin-top: 150px;
+}
+
+.First-ali {
+    background-color:#DBDFE2;
+}
+
+.commercials{
+    background-color:#DBDFE2;
+}
+
+.contact-line{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px){
+.contact-header{
+font-size: 40px;
+}
+.theatre-header{
+    font-size: 40px;
+}
+.commercials-header{
+    font-size: 40px;
+}
+.portofolio-header{
+    font-size: 46px;
+
+}
+.about-header{
+    margin-top: 10px;
+    font-size: 46px;
+}
+}
+
+/* footer */
+
+.page-footer{
+    background-color:#181B1C;
+}
+
+.contact-social a{
+    color: black;
+}
+
+.contact-social {
+    padding-bottom: 150px;
+}
+
+.contact-header{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.commercials-header{
+    padding-bottom: 70px;
+}
+
+.undraw-img{
+    font-size: 10px;
+}
+
+.icon-footer{
+    font-size: 25px; 
+     margin-left: 15px;
+}
+
+.footer-amir{
+    margin-top: 100px; 
+    margin-left: 30px;
+     font-size: 30px;
+}
+
+.prof-actor{
+    margin-left: 45px; 
+    font-size: 20px;
+}
+
+.check-out{
+    margin-top: 20px;
+}
+
+
+.footer-icons{
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: 40px;
+    
+    
+}
+
+@media only screen and (max-width: 600px){
+    .marginr-0{
+       font-size: 15pt;
+    }
+
+    .prof-actor{
+        margin-left: 0px;
+    }
+
+    .footer-amir{
+        font-size: 15pt;
+        margin-left: 0px;
+    }
+
+}
+
+
+.footer-icons a{
+    color: white;
+}
+
+.call{
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 600px){
+    .call{
+    font-size: 20px;
+    }
+}
